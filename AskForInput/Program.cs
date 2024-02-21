@@ -14,7 +14,9 @@ namespace AskForInput
             //Asking for user input and parsing it into an int variable
             Console.WriteLine("Please insert a float");
             string userInput2 = Console.ReadLine();
-            float userFloat = int.Parse(userInput2);
+            float userFloat = float.Parse(userInput2);
+
+            Console.WriteLine(userInt+userFloat);
         }
     }
 }
