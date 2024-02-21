@@ -6,7 +6,9 @@ namespace AskForInput
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Asking for user input and parsing it into an int variable
+            string userInput = Console.ReadLine();
+            int userInt = int.Parse(userInput);
         }
     }
 }
