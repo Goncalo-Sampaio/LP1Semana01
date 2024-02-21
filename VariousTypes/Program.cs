@@ -21,6 +21,14 @@ namespace VariousTypes
             Console.WriteLine(char1);
             Console.WriteLine(char2);
             Console.WriteLine(char3);
+
+            //Initializing multiple floating point variables and printing them
+            float float1 = 1.11f;
+            double double1 = 2.22;
+            decimal decimal1 = 3.33m;
+            Console.WriteLine(float1);
+            Console.WriteLine(double1);
+            Console.WriteLine(decimal1);
         }
     }
 }
