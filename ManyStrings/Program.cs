@@ -11,6 +11,18 @@ namespace ManyStrings
             string s2 = "A new line \n and a star \u2605";
             Console.WriteLine(s1);
             Console.WriteLine(s2);
+
+            //Initializing multiple string variables using concatenation and
+            //interpolation and printing them
+            string s3 = "c" + 5;
+            string s4 = "banana" + s3;
+
+            string s5 = $"the value of s3 is {s3}";
+            string s6 = $"{s3} plus {s4} equals {s3 + s4}";
+            Console.WriteLine(s3);
+            Console.WriteLine(s4);
+            Console.WriteLine(s5);
+            Console.WriteLine(s6);
         }
     }
 }
