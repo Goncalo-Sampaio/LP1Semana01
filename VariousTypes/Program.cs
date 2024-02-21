@@ -29,6 +29,12 @@ namespace VariousTypes
             Console.WriteLine(float1);
             Console.WriteLine(double1);
             Console.WriteLine(decimal1);
+
+            //Initializing multiple bool variables and printing them
+            bool bool1 = true;
+            bool bool2 = false;
+            Console.WriteLine(bool1);
+            Console.WriteLine(bool2);
         }
     }
 }
