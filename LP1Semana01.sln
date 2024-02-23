@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyStrings", "ManyStrings\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskForInput", "AskForInput\AskForInput.csproj", "{233B9C65-20E6-4A30-B949-688C1233525E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalHexa", "DecimalHexa\DecimalHexa.csproj", "{8CC54442-3D48-4DA1-B3E2-2640CBC583F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{233B9C65-20E6-4A30-B949-688C1233525E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{233B9C65-20E6-4A30-B949-688C1233525E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{233B9C65-20E6-4A30-B949-688C1233525E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC54442-3D48-4DA1-B3E2-2640CBC583F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC54442-3D48-4DA1-B3E2-2640CBC583F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC54442-3D48-4DA1-B3E2-2640CBC583F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC54442-3D48-4DA1-B3E2-2640CBC583F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
