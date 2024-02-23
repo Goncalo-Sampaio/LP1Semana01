@@ -18,6 +18,12 @@ namespace DecimalHexa
             int int2 = int.Parse(input2);
             int int3 = int.Parse(input3);
             int int4 = int.Parse(input4);
+
+            //Showing the user their inputs in decimal and hexadecimal
+            Console.WriteLine($"{int1, 6}  {int1, 6:X}");
+            Console.WriteLine($"{int2, 6}  {int2, 6:X}");
+            Console.WriteLine($"{int3, 6}  {int3, 6:X}");
+            Console.WriteLine($"{int4, 6}  {int4, 6:X}");
         }
     }
 }
